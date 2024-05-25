@@ -1,3 +1,3 @@
 # Introduction
 
-Small console application for prototyping Levenshtein algorith for better searches.
+Small console application for prototyping Levenshtein algorithm for better searches.
