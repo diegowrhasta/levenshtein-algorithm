@@ -60,8 +60,10 @@ public class SmartDictionary<T>
                 rater.Penalty += index * 1000;
             }
 
+            var offsetIndex = index + 1;
+
             destination =
-                index + 1 < destination.Length ? destination[(index + 1)..] : string.Empty;
+                offsetIndex < destination.Length ? destination[offsetIndex..] : string.Empty;
         }
 
         return rater;
@@ -81,7 +83,7 @@ public class SmartDictionary<T>
         _allItems.Add(newItem);
     }
 
-    public IEnumerable<T> Search(string search, int maxItems)
+    public IEnumerable<T?> Search(string search, int maxItems)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(search, nameof(search));
         ArgumentExceptionExtensions.ThrowIfInvalidMaxItems(maxItems, nameof(maxItems));
