@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Levenshtein Algorithm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df5385c29e2f19b761ae44b88bd11ac2a5852ea8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Levenshtein Algorithm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Levenshtein Algorithm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
